@@ -38,13 +38,13 @@ config.json
 }
 ````
 
-fe
+- fe
     frontend server config
 
-fe.package
+- fe.package
     frontend package
 
-fe.hostname
+- fe.hostname
     0.0.0.0 to listen the wild
 
 fe.port
