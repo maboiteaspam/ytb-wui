@@ -39,40 +39,40 @@ config.json
 ````
 
 - fe
-    frontend server config
+> frontend server config
 
 - fe.package
-    frontend package
+> frontend package
 
 - fe.hostname
-    0.0.0.0 to listen the wild
+> 0.0.0.0 to listen the wild
 
 fe.port
-    port to listen
+> port to listen
 
 fe.api_location
-    location of the backend
+> location of the backend
 
 be
-    backend server config
+> backend server config
 
 be.package
-    backend package
+> backend package
 
 be.hostname
-    0.0.0.0 to listen the wild, not recommended.
+> 0.0.0.0 to listen the wild, not recommended.
 
 be.port
-    port to listen
+> port to listen
 
 be.run_path
-    used to record a catalog of started/current/done download
+> used to record a catalog of started/current/done download
 
 be.dld_pattern
-    the youtube-dl save file path, see --output
+> the youtube-dl save file path, see --output
 
 be.allowOrigins
-    allowed origins to perform CORS, put there the frontend location
+> allowed origins to perform CORS, put there the frontend location
 
 
 run
