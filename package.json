@@ -1,0 +1,14 @@
+{
+  "name": "ytb-wui",
+  "description": "Youtube-dl Web UI",
+  "main": "index.js",
+  "version": "0.0.1",
+  "bin": {
+    "ytb-wui": "./bin.js"
+  },
+  "dependencies": {
+    "yargs": "^1.2.1",
+    "ytb-be": "maboiteaspam/ytb-be",
+    "ytb-fe": "maboiteaspam/ytb-fe"
+  }
+}
