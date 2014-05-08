@@ -9,7 +9,6 @@
 // to read command line options
 var argv = require('yargs')
   .usage('Usage: $0 --config [file.json]')
-  .demand(['config'])
   .argv;
 
 // to read command line user input
@@ -17,7 +16,7 @@ var readline = require('readline');
 var fs = require('fs');
 
 
-var config_file = argv.config;
+var config_file = argv.config || "config.json";
 
 if( !fs.existsSync(config_file) ){
   console.warn("Configuration file does not exists "+config_file)
