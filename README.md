@@ -30,7 +30,7 @@ config.json
     "hostname":"localhost",
     "port":3001,
     "run_path":".run",
-    "dld_pattern":"download/%(title)s.%(ext)s",
+    "dld_pattern":"download/%(filename)s.%(ext)s",
     "allowOrigins":[
       "http://localhost:3000"
     ]
