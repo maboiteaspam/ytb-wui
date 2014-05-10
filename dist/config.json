@@ -10,7 +10,7 @@
     "hostname":"localhost",
     "port":3001,
     "run_path":".run",
-    "dld_pattern":"download/%(filename)s.%(ext)s",
+    "dld_pattern":"download/%(filename)s - %(id)s - %(autonumber)s.%(ext)s",
     "allowOrigins":[
       "http://localhost:3000"
     ]
