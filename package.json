@@ -6,6 +6,9 @@
   "bin": {
     "ytb-wui": "./bin.js"
   },
+  "scripts": {
+    "postinstall" : ""
+  },
   "dependencies": {
     "yargs": "^1.2.1",
     "ytb-be": "maboiteaspam/ytb-be",

@@ -77,3 +77,5 @@ or
 ````
 node_modules/.bin/ytb-wui
 ````
+
+then browse to ```http://localhost:3000/``` and type in video url.
