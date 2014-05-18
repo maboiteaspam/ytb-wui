@@ -2,6 +2,7 @@
   "name": "ytb-wui",
   "description": "Youtube-dl Web UI",
   "main": "index.js",
+  "preferGlobal": true,
   "version": "0.0.1",
   "bin": {
     "ytb-wui": "./bin.js"
