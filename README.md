@@ -10,7 +10,7 @@ install
 ````
 mkdir whatever_dir
 cd whatever_dir
-npm i ytb-wui -g
+npm i maboiteaspam/ytb-wui -g
 vi config.json
 ````
 
