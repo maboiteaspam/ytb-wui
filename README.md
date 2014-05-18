@@ -11,8 +11,6 @@ install
 mkdir whatever_dir
 cd whatever_dir
 npm i maboiteaspam/ytb-wui -g
-npm run-script check ytb-be
-npm run-script setup ytb-wui
 vi config.json
 ````
 
