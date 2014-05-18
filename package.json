@@ -8,7 +8,7 @@
     "ytb-wui": "./bin.js"
   },
   "scripts": {
-    "postinstall" : "scripts/postinstall.js"
+    "setup" : "scripts/postinstall.js"
   },
   "dependencies": {
     "yargs": "^1.2.1",
